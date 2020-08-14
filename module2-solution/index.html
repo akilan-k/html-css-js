@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu</title>
+    <style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+    clear: right;
+    padding: 10px;
+}
+
+#chic {
+    background-color: #d94832;
+}
+
+#sushi {
+    background-color: #1fdea8;
+}
+
+#beef {
+    background-color: #d4de1f;
+}
+
+.page {
+    width: 100%;
+    padding: 2.5%;
+}
+
+.item {
+  border: 2px solid black;
+  background-color: #a1a1a1;
+}
+
+.heading {
+    border: 2px solid black;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    margin-top: 0px;
+    margin-right: 0px; 
+    margin-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    float: right;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-ld-4 {
+    float: left;
+    width: 33.33%;
+    padding: 2%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    padding: 2%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class = "page">
+    <div class = "col-ld-4 col-md-6 col-sd-12">
+        <div class= "item">
+            <h2 class = "heading" id="chic">Chicken</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel facilisis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium consectetur tincidunt. Nunc euismod leo tincidunt venenatis aliquet. Curabitur ultricies lorem sit amet eros tempor ultrices. Fusce tincidunt malesuada ante in ultrices. Mauris placerat neque et dui molestie, in elementum risus convallis. Nulla elementum massa et justo ultricies gravida. Nullam eleifend arcu quis elit tincidunt, id tincidunt nulla suscipit. In justo odio, pellentesque sed congue eget, commodo sed velit. Nulla vitae sagittis purus.     
+            </p>
+        </div>
+    </div>
+    <div class = "col-ld-4 col-md-6 col-sd-12">
+        <div class = "item">
+            <h2 class = "heading" id = "beef">Beef</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel facilisis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium consectetur tincidunt. Nunc euismod leo tincidunt venenatis aliquet. Curabitur ultricies lorem sit amet eros tempor ultrices. Fusce tincidunt malesuada ante in ultrices. Mauris placerat neque et dui molestie, in elementum risus convallis. Nulla elementum massa et justo ultricies gravida. Nullam eleifend arcu quis elit tincidunt, id tincidunt nulla suscipit. In justo odio, pellentesque sed congue eget, commodo sed velit. Nulla vitae sagittis purus.
+            </p>
+        </div>
+    </div>
+    <div class = "col-ld-4 col-md-12 col-sd-12">
+        <div class = "item">
+            <h2 class = "heading" id = "sushi">Sushi</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel facilisis libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium consectetur tincidunt. Nunc euismod leo tincidunt venenatis aliquet. Curabitur ultricies lorem sit amet eros tempor ultrices. Fusce tincidunt malesuada ante in ultrices. Mauris placerat neque et dui molestie, in elementum risus convallis. Nulla elementum massa et justo ultricies gravida. Nullam eleifend arcu quis elit tincidunt, id tincidunt nulla suscipit. In justo odio, pellentesque sed congue eget, commodo sed velit. Nulla vitae sagittis purus.
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
