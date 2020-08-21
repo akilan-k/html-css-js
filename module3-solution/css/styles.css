@@ -1,0 +1,68 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #1b262c;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+#header-nav {
+	background-color: #2d4059;
+	margin-bottom: 20px;
+	border: 0;
+	border-radius: 0;
+	padding-top: 20px; 
+}
+
+.navbar-brand {
+	height: 90px;
+	margin-top: -30px;
+}
+
+.navbar-brand h1{
+	font-size: 2.5em;
+	color: #bbe1fa;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: #fff;
+}
+
+#nav-list a:hover{
+	background-color: #17212e;
+}
+
+#menu-title {
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.item-tile {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #2d4059;
+	margin-bottom: 20px;
+	padding: 15px;
+	height: 2000px;
+	overflow: auto;
+}
+
+.item-tile h3{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	color: #fa7d09;
+}
+
+@media (max-width: 768px) {
+  #main-content {
+    width: 90%;
+  }
+}
